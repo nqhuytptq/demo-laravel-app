@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.container1 {
+            display: flex;
+            width:75%;
+        }
+
+        .left,
+        .right {
+            flex: 1;
+        }
+
+        .left {
+            background-color: white;
+        }
+
+        .right {
+            background-color: white;
+        }
